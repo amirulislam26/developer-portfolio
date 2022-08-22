@@ -2,14 +2,18 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
 }
-.container{
+section{
     display: flex;
+    margin-bottom: 150px;
+}
+.container{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 } 
 .half-width{
     width: 50%;
-    padding-left: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .half-width img{
     width: 70%;
@@ -28,4 +32,9 @@ h1{
     font-weight: 700;
     border: 1px solid mediumspringgreen;
     border-radius: 10px;
+}
+.dream-big{
+background-image: url(images/dream-bg.png);
+background-repeat: no-repeat;
+background-position: right;
 }
